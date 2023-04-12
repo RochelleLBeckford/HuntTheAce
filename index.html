@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Bootstrap CDN -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css"
+        integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" 
+        crossorigin="anonymous"
+    >
+
+    <!--  & Boostrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        crossorigin="anonymous"
+    >
+
+    <!-- & style.css file -->
+    <link rel="stylesheet" href="style.css">
+    <title>Card Game</title>
+</head>
+
+<body>
+    <!-- put everything in a container to get it off the edges of the page -->
+    <!-- 
+        Header related code 
+        * Note -> used live server instead of open in browser to see live changes to my code w/o having to refresh my page each time i change something
+    -->
+    <header>
+        <div class="header-title-container">
+            <h1 class="text-center">Hunt The Ace of Spades!</h1>
+        </div>
+
+        <!-- elements for outputting the score and thr round # to the user-->
+        <div class="header-round-info-container">
+            <!-- ? Logo element -->
+            <div class="header-img-container">
+                <!-- this will be the logo img for the game on the same row as the score and round # elements -->
+                <img src="/images/aceSpades.png" alt="Logo is the Ace of Spades" class="header-img">
+            </div>
+
+            <!-- ? score element -->
+            <div class="header-score-container">
+                <!-- 
+                    ~ &nbsp is a non-breaking space and will not break the code into a new line
+                    -> Ex. 10 km/h or 10 PM
+                -->
+                <h2 class="score">Score&nbsp;<span class="badge">0</span>
+                </h2>
+            </div>
+
+            <!-- ? round # element -->
+            <div class="header-round-container">
+                <h2 class="round">Round&nbsp;<span class="badge">0</span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="header-status-info-container">
+            <p class="current-status">
+                Click 'Play Game' button to play game
+            </p>
+        </div>
+
+        <!-- create button so user can start the game -->
+        <div class="header-btn-container">
+            <div class="game-play-btn-container">
+                <button id="playGame" class="play-game">Play Game!!</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- need to create a card statically and then generate dynamically with js code-->
+    <main>
+        <div class="card-container">
+            <!-- ************************************************* -->
+            <!-- made static card 1st -->
+            <!-- <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="/images/cardJackClubs.png" alt="Jack Of Clubs Card" class="card-img">
+                    </div>
+                    <div class="card-back">
+                        <img src="/images/cardBackBlue.png" alt="Back of the card is Blue" class="card-img">
+                    </div>
+                </div>
+            </div> -->
+            <!-- ************************************************** -->
+
+            <!-- ~ create a grid array where the cards will be placed
+                -> the game play grid
+                -> create 4 placeholders for the positions of each of the cards
+            -->
+            <div class="card-pos-a">
+
+            </div>
+
+            <div class="card-pos-b">
+
+            </div>
+
+            <div class="card-pos-c">
+
+            </div>
+
+            <div class="card-pos-d">
+
+            </div>
+            
+
+        </div>
+    </main>
+
+    <!--  & Bootstrap JS -->
+    <!-- <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+        crossorigin="anonymous"
+        >
+    </script> -->
+    <!-- & JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
