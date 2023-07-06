@@ -15,6 +15,15 @@
 - [ ] How to dynamically change the positions of grid cells, so as to randomize the positions of the cards contained in a css grid using JavaScript,
 - [ ] localStorage functionality
 - [ ] And much More…
+---
+- [ ]  Encompass: 
+    - [ ] HTML 
+    - [ ] CSS
+    - [ ] JavaScript
+- [ ]  HTML → will be the structure and skeleton of how the app will appear on the webpage
+- [ ]  CSS → encompass the style of the app and give it some flare
+- [ ]  JavaScript → provide the functionality of the page
+    - [ ]  If I click or do this → this will happen
 ***
 ## *The Game:* 
 
