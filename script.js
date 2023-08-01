@@ -22,13 +22,13 @@ const cardBackImgPath = '/images/cardBackBlue.png';
 // ? stores a reference to an array of card elements
 let cards = [];
 
-//? reference to store start gane method
+//? reference to store start game method
 const playGameBtnElem = document.getElementById('playGame');
 
-// ? contains the grid cells that this element has been desginated
+// ? contains the grid cells that this element has been designated
 const cardContainerElem = document.querySelector('.card-container');
 
-// ? callapse all the cards to one grid cell
+// ? collapse all the cards to one grid cell
 const collapsedGridAreaTemplate = '"a a" "a a"';
 // ? store the class of the grid element that will be the only cell in the grid once modify gridareatemplate property
 // choosing 1st cell in the grid to collect all the stacked cards 

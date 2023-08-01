@@ -1,6 +1,6 @@
 /*
 ? Concept
--> the object is to build a bacis card game using html, css nad JavaScript
+-> the object is to build a basic card game using html, css nad JavaScript
 -> it will be dynamic user interactive code using js
 -> create animation effects
 -> "Hunt The Ace" -> the name of the card game
