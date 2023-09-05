@@ -16,6 +16,8 @@
 - [ ] localStorage functionality
 - [ ] And much More…
 ---
+- [ ] Link for the web application: https://ro-hunt-the-ace-app.netlify.app
+---
 - [ ]  Encompass: 
     - [ ] HTML 
     - [ ] CSS

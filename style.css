@@ -200,7 +200,7 @@ header{
     align-items: center;
 }
 
-/* ~ give all the elements conatined w/i these elements the same width */
+/* ~ give all the elements contained w/i these elements the same width */
 .header-score-container, 
 .header-round-container, 
 .header-img-container{
@@ -312,9 +312,9 @@ header{
 }
 
 /* 
-~ make this project repsonsive on smaller screens 
+~ make this project responsive on smaller screens 
 -> these css classes will be dynamically modified in response to smaller screen sizes
-    -> for instance sceens 600px or less
+    -> for instance screens 600px or less
 */
 @media screen and (max-width:600px) {
     .card{
