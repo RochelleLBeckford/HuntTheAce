@@ -16,8 +16,7 @@
 - [ ] localStorage functionality
 - [ ] And much More…
 ---
-- [ ] Link for the web application: https://ro-hunt-the-ace-app.netlify.app
----
+
 - [ ]  Encompass: 
     - [ ] HTML 
     - [ ] CSS
@@ -40,4 +39,6 @@
 - Purpose of the local storage:
     - if the user accidentally exits the game the incomplete game will be save to the local storage
         - once the user opens back up the game and click the play game button the user will be prompt to continue their incomplete game or start over
-
+---
+- [ ] Link for the web application: https://ro-hunt-the-ace-app.netlify.app
+---
